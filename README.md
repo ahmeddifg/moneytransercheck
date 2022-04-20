@@ -1,4 +1,3 @@
-
 Instructions:
 
 1. Clone this repo.
@@ -10,6 +9,6 @@ Instructions:
 
 4- you will mongo DB and rabbit QM servers running 
 
-5- open two project in VS code and run npm run start
+5- open two project in VS code and run:    npm run start
 
 6- open Postman collection and execute the APIS 
