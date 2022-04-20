@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "a9bdf653-0594-46f7-825f-7c9fd45afccd",
+		"name": "PaymentAPICollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"country\": \"UAE\",\r\n    \"email\":\"ahmed.def.gmail.com\",\r\n    \"amount\":50000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001?id=7e4a7a79-2891-490d-aa4a-e4c4929931aa",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"country\": \"UAE\",\r\n    \"email\":\"ahmed.def.gmail.com\",\r\n    \"amount\":5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001?id=7e4a7a79-2891-490d-aa4a-e4c4929931aa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"query": [
+						{
+							"key": "id",
+							"value": "7e4a7a79-2891-490d-aa4a-e4c4929931aa"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
